@@ -8,17 +8,18 @@ Yongri Piao, Chenyang Lu, Miao Zhang, Huchuan Lu.
 - CUDA 11.3
 - PyTorch 1.7.0
 - Python 3.6
+
 [pretrained models](https://pan.baidu.com/s/1hEts3xx_pwY-Fejmepj0SQ) ,code：zve9
 # Train/Test
 ## Test
-1.Modify the paths for the testing dataset and pre-trained model.  
+1.Modify the paths for the testing dataset and pre-trained model(10GT+50PL_best.pth).  
 2.python test_fuse.py
 
 ## Train
-1.Select a certain number of ground truth, and modify the training dataset and pre-trained model paths to train the pseudo-label generator.  
+1.Select a certain number of ground truth, and modify the training dataset and pre-trained model(pretrain_resnet50.pth) paths to train the pseudo-label generator.  
 python train.py  
 
-2.Select a certain number of pseudo-labels, and modify the training dataset and pre-trained model paths to collaboratively train NS-GAN with the ground truth.  
+2.Select a certain number of pseudo-labels, and modify the training dataset and pre-trained model paths(pretrain_resnet50.pth for RGB stream & resnet50-19c8e357.pth for OPT stream) to collaboratively train NS-GAN with the ground truth.  
 python ST-train.py  
 
 # Contact us
