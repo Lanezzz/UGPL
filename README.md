@@ -8,7 +8,7 @@ Yongri Piao, Chenyang Lu, Miao Zhang, Huchuan Lu.
 - CUDA 11.3
 - PyTorch 1.7.0
 - Python 3.6
-[pretrained models]https://pan.baidu.com/s/1hEts3xx_pwY-Fejmepj0SQ ,code：zve9
+[pretrained models](https://pan.baidu.com/s/1hEts3xx_pwY-Fejmepj0SQ) ,code：zve9
 # Train/Test
 ## Test
 1.Modify the paths for the testing dataset and pre-trained model.  
