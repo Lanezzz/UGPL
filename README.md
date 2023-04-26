@@ -18,6 +18,7 @@ Modify the paths for the testing dataset and pre-trained model(10GT+50PL_best.pt
 ## Train
 1.Select a certain number of ground truth, and modify the training dataset and pre-trained model(pretrain_resnet50.pth) paths to train the pseudo-label generator.  
 - python train.py  
+
 You can also use our pretrained model (pseudo_label.pth) to generate pseudo-labels.
 
 2.Select a certain number of pseudo-labels, and modify the training dataset and pre-trained model paths(pretrain_resnet50.pth for RGB stream & resnet50-19c8e357.pth for OPT stream) to collaboratively train NS-GAN with the ground truth.  
