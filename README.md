@@ -1,6 +1,6 @@
 # UGPL
 Accepted paper in Neurips2022:
-Semi-Supervised Video Salient Object Detection Based on Uncertainty-Guided Pseudo Labels
+Semi-Supervised Video Salient Object Detection Based on Uncertainty-Guided Pseudo Labels  
 Yongri Piao, Chenyang Lu, Miao Zhang, Huchuan Lu.
 
 # Prerequisites
